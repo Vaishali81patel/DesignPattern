@@ -1,4 +1,4 @@
-mport sqlite3
+import sqlite3
 from idata_access import IDataAccess
 from data import Data
 

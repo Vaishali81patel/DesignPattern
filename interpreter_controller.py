@@ -5,9 +5,14 @@ from console_view import ViewConsole as View
 # from employee_data import EmployeeData
 from employee_get_data import GetEmployee
 from data import Data
-
+from sys import argv
+from file_types import FileTypes
+import os
 
 class InterpreterController (Cmd):
+    _input_file = ''
+    _output_file = ''
+    _data_list = []
     # This class is a controller class which enable interpreter (model) and
     # View (Console View) to interconnect with each other and
     # This class also defined command loop enables \
@@ -270,6 +275,45 @@ class InterpreterController (Cmd):
         else:
             View.display ("Thanks for using. Bye!")
             return True
+
+    def check_valid_file_name(self, file_name, input_output):
+        """
+        Checks to make sure the file_name exists and if it
+        has a valid file extension
+        :param file_name:
+        :param input_output:
+        :return:
+        """
+        if self.check_file_exists (file_name):
+            if self.check_file_name_extensions (file_name, input_output):
+                return True
+            else:
+                return False
+        else:
+            print ("File does not exist")
+            return False
+
+    def check_file_name_extensions(self, file_name, input_output):
+        """
+        Checks the file extension against the possible extensions set up
+        in the class variable _extension_types
+        :param file_name:
+        :param input_output:
+        :return:
+        """
+        file_type = FileTypes ()
+        extension_types = file_type.get_extension_types ()
+        for extension in extension_types:
+            if file_name.endswith (extension):
+                if input_output == 'input':
+                    self._input_file = file_type.get_file_type (extension)
+                else:
+                    self._output_file = file_type.get_file_type (extension)
+                return True
+        print ("File name must end with:")
+        for extension in extension_types:
+            print (extension)
+        return False
 
 
 if __name__ == "__main__":
