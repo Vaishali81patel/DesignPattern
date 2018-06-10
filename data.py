@@ -63,3 +63,19 @@ class Data(Enum):
     def getBIRTHDAY(self):
         return self.BIRTHDAY
 
+if __name__ == '__main__':
+    # Instantiate Object A
+    objA = Data(0)
+
+    # Instantiate Object B
+    objB = Data(1)
+
+    # Investigate the memory addresses of the two objects
+    print (id(objA))
+    print (id(objB))
+
+    # Determine if they are the same instance
+    if (id(objA) == id(objB)):
+        print ("Same")
+    else:
+        print ("Different")
