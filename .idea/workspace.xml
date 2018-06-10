@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a28ace-d6cf-4752-8e59-7df9b8d64d80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_suite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unitest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/view_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Pattern Ass3/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Design Pattern Ass3/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Pattern Ass3/console_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Design Pattern Ass3/console_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Pattern Ass3/view_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Design Pattern Ass3/view_graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,13 +20,13 @@
         <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="3961">
-                <caret line="233" column="23" lean-forward="true" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
+              <first_editor relative-caret-position="17">
+                <caret line="204" column="35" lean-forward="true" selection-start-line="204" selection-start-column="35" selection-end-line="204" selection-end-column="35" />
                 <folding>
                   <element signature="e#0#19#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-119" />
             </state>
           </provider>
         </entry>
@@ -41,8 +35,65 @@
         <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/console_view.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="68">
-                <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
+              <first_editor>
+                <caret lean-forward="true" />
+                <folding>
+                  <element signature="e#0#21#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_get_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_get_data.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
+                <folding>
+                  <element signature="e#0#21#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_validator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data_validator.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <folding>
+                  <element signature="e#0#9#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/database.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="-1663">
+                <folding>
+                  <element signature="e#14#50#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_data.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
                 <folding>
                   <element signature="e#0#21#0" expanded="true" />
                 </folding>
@@ -64,12 +115,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_graph.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_graph.py">
+      <file leaf-file-name="view_bar_graph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="51">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="367">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                <folding>
+                  <element signature="e#0#21#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_handler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/file_handler.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <caret lean-forward="true" />
+                <folding>
+                  <element signature="e#0#10#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -98,12 +167,13 @@
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/Design Pattern Ass3/view.py" />
         <option value="$PROJECT_DIR$/Design Pattern Ass3/view_graph.py" />
+        <option value="$PROJECT_DIR$/Design Pattern Ass3/console_view.py" />
+        <option value="$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
-    <option name="y" value="91" />
     <option name="width" value="1026" />
     <option name="height" value="1230" />
   </component>
@@ -153,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.view_graph">
+  <component name="RunManager" selected="Python.view_bar_graph">
     <configuration name="abstract_factory_demo5_after" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignPattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +278,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="interpreter_controller" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="view_bar_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignPattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design Pattern Ass3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpreter_controller.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.data" />
-      <item itemvalue="Python.interpreter_controller" />
       <item itemvalue="Python.abstract_factory_demo5_after" />
       <item itemvalue="Python.branch_coverage_test" />
       <item itemvalue="Python.view_graph" />
+      <item itemvalue="Python.view_bar_graph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.view_bar_graph" />
         <item itemvalue="Python.view_graph" />
         <item itemvalue="Python.branch_coverage_test" />
         <item itemvalue="Python.data" />
         <item itemvalue="Python.abstract_factory_demo5_after" />
-        <item itemvalue="Python.interpreter_controller" />
       </list>
     </recent_temporary>
   </component>
@@ -278,15 +348,15 @@
     <frame x="-7" y="-7" width="1295" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14308426" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39910313" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -457,16 +527,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py">
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data_validator.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="3961">
-            <caret line="233" column="23" lean-forward="true" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
+          <first_editor>
             <folding>
-              <element signature="e#0#19#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_get_data.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
+            <folding>
+              <element signature="e#0#21#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_data.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <folding>
+              <element signature="e#0#21#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_graph.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="367">
+            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
@@ -480,11 +592,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three/file_pickle.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <caret lean-forward="true" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="367">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <folding>
+              <element signature="e#0#21#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="17">
+            <caret line="204" column="35" lean-forward="true" selection-start-line="204" selection-start-column="35" selection-end-line="204" selection-end-column="35" />
+            <folding>
+              <element signature="e#0#19#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three/graph_pie_builder.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="382">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <folding>
+              <element signature="e#67#98#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three/validate_age.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/console_view.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="68">
-            <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
+          <first_editor>
+            <caret lean-forward="true" />
             <folding>
               <element signature="e#0#21#0" expanded="true" />
             </folding>
@@ -493,11 +662,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_graph.py">
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/database.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="-1663">
+            <folding>
+              <element signature="e#14#50#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/file_handler.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <caret lean-forward="true" />
+            <folding>
+              <element signature="e#0#10#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
