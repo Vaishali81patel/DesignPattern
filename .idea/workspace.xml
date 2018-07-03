@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a28ace-d6cf-4752-8e59-7df9b8d64d80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data_abstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_concrete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_abstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_types_abstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph_bar_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph_director.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph_pie_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/console_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_concrete.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_concrete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_types_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_types_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_bar_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_director.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_director.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_pie_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idata_access.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_abstract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interpreter_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/interpreter_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,134 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="interpreter_controller.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interpreter_controller.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="-4529">
-                <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-                <folding>
-                  <element signature="e#0#19#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_director.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_director.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor>
-                <caret column="18" selection-start-column="18" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_builder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_builder.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_bar_builder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_bar_builder.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="-250">
-                <caret column="18" selection-start-column="18" selection-end-column="18" />
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_pie_builder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_pie_builder.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="51">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="-556">
-                <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_abstract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file_abstract.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor>
-                <caret column="18" selection-start-column="18" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_concrete.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_concrete.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="34">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_abstract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_abstract.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="155">
-                <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              </first_editor>
-              <second_editor relative-caret-position="-32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file_handler.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="-1168">
-                <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
-                <folding>
-                  <element signature="e#0#10#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,6 +37,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>show</find>
+      <find>product</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -174,23 +58,32 @@
         <option value="$PROJECT_DIR$/Design Pattern Ass3/console_view.py" />
         <option value="$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py" />
         <option value="$PROJECT_DIR$/pickle_file.py" />
-        <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/file_type_abstract.py" />
-        <option value="$PROJECT_DIR$/interpreter_controller.py" />
         <option value="$PROJECT_DIR$/file_types.py" />
-        <option value="$PROJECT_DIR$/file_abstract.py" />
-        <option value="$PROJECT_DIR$/data_concrete.py" />
+        <option value="$PROJECT_DIR$/idata_access.py" />
+        <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/data_abstract.py" />
+        <option value="$PROJECT_DIR$/data_concrete.py" />
+        <option value="$PROJECT_DIR$/graph_bar_builder.py" />
+        <option value="$PROJECT_DIR$/console_view.py" />
+        <option value="$PROJECT_DIR$/builder_graph_demo.py" />
+        <option value="$PROJECT_DIR$/graph_pie_builder.py" />
+        <option value="$PROJECT_DIR$/file_types_abstract.py" />
+        <option value="$PROJECT_DIR$/view.py" />
         <option value="$PROJECT_DIR$/graph_director.py" />
         <option value="$PROJECT_DIR$/graph_builder.py" />
-        <option value="$PROJECT_DIR$/graph_bar_builder.py" />
-        <option value="$PROJECT_DIR$/graph_pie_builder.py" />
+        <option value="$PROJECT_DIR$/file_pickle.py" />
+        <option value="$PROJECT_DIR$/interpreter_controller.py" />
+        <option value="$PROJECT_DIR$/show_graph.py" />
+        <option value="$PROJECT_DIR$/graph.py" />
+        <option value="$PROJECT_DIR$/file_abstract.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="width" value="1026" />
+    <option name="x" value="960" />
+    <option name="y" value="12" />
+    <option name="width" value="996" />
     <option name="height" value="1230" />
   </component>
   <component name="ProjectView">
@@ -198,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,11 +102,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Refactoring" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,8 +127,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.interpreter_controller">
-    <configuration name="graph_bar_builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.unit_test_suite">
+    <configuration name="builder_graph_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignPattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,13 +140,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_bar_builder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/builder_graph_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="graph_builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="file_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignPattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,13 +158,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_builder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_pickle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="graph_director" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignPattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,25 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_director.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="graph_pie_builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DesignPattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_pie_builder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,20 +200,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="unit_test_suite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DesignPattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Refactoring" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Refactoring/unit_test_suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
+      <item itemvalue="Python.builder_graph_demo" />
       <item itemvalue="Python.interpreter_controller" />
-      <item itemvalue="Python.graph_director" />
-      <item itemvalue="Python.graph_builder" />
-      <item itemvalue="Python.graph_bar_builder" />
-      <item itemvalue="Python.graph_pie_builder" />
+      <item itemvalue="Python.graph" />
+      <item itemvalue="Python.file_pickle" />
+      <item itemvalue="Python.unit_test_suite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.unit_test_suite" />
         <item itemvalue="Python.interpreter_controller" />
-        <item itemvalue="Python.graph_pie_builder" />
-        <item itemvalue="Python.graph_bar_builder" />
-        <item itemvalue="Python.graph_builder" />
-        <item itemvalue="Python.graph_director" />
+        <item itemvalue="Python.file_pickle" />
+        <item itemvalue="Python.graph" />
+        <item itemvalue="Python.builder_graph_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -358,156 +251,54 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="828" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14308426" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1391097" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.31390134" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39910313" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/file_pickle.py</url>
+          <line>5</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="python-line">
+          <url>file://$PROJECT_DIR$/interpreter_controller.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/show_graph.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/OneDrive/PYTHON/week08/abstract factory/abstract_factory_demo5_after.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/singleton.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="299">
-            <caret line="64" lean-forward="true" selection-end-line="64" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/Singleton_implement.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/idata_access.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/branch_coverage_test.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="367">
-            <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-            <folding>
-              <element signature="e#0#15#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="367">
-            <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_data.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="367">
-            <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_get_data.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="367">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console_view.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_controller.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/singleton.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/Singleton_implement.py" />
+    <entry file="file://$PROJECT_DIR$/branch_coverage_test.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/Unit_tests/unit_test_controller.py" />
     <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three/file_pickle.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -523,9 +314,6 @@
         <state>
           <first_editor relative-caret-position="382">
             <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            <folding>
-              <element signature="e#67#98#0" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor relative-caret-position="-77" />
         </state>
@@ -547,96 +335,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/file_handler.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret lean-forward="true" />
-            <folding>
-              <element signature="e#0#10#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/file_handler.py" />
     <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three - Copy/main.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor>
-            <folding>
-              <element signature="e#42#75#0" expanded="true" />
-            </folding>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_data.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/database.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_get_data.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/console_view.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data_validator.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_graph.py" />
+    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py" />
+    <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three - Copy/command_view.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_abstract.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="17">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view.py">
+    <entry file="file://$PROJECT_DIR$/data_abstract.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="34">
-            <caret line="2" lean-forward="true" selection-end-line="2" />
+          <first_editor relative-caret-position="374">
+            <caret line="24" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="24" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_data.py">
+    <entry file="file://$PROJECT_DIR$/employee_data.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor>
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/database.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-1663">
-            <folding>
-              <element signature="e#14#50#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="901">
+            <caret line="100" column="30" lean-forward="true" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="30" />
           </first_editor>
           <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/employee_get_data.py">
+    <entry file="file://$USER_HOME$/PYTHON REPOSITORY 2018 Moodle/week08/abstract factory/abstract_factory_demo4.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/console_view.py">
+    <entry file="file://$USER_HOME$/PYTHON REPOSITORY 2018 Moodle/week08/abstract factory/needs_abstract_factory3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor>
-            <caret lean-forward="true" />
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/interpreter_controller.py">
+    <entry file="file://$PROJECT_DIR$/data_concrete.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="217">
+            <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          </first_editor>
+          <second_editor relative-caret-position="-4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_validator.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="302">
+            <caret line="64" lean-forward="true" selection-end-line="64" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/PYTHON/week09/Builder/Builder_bookDemo.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_get_data.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="285">
+            <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_bar_builder.py" />
+    <entry file="file://$PROJECT_DIR$/builder_graph_demo.py" />
+    <entry file="file://$PROJECT_DIR$/graph_pie_builder.py" />
+    <entry file="file://$PROJECT_DIR$/console_view.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="17">
-            <caret line="204" column="35" lean-forward="true" selection-start-line="204" selection-start-column="35" selection-end-line="204" selection-end-column="35" />
+            <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="485">
+            <caret line="50" selection-start-line="50" selection-end-line="50" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/cmd.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="3689">
+            <caret line="217" selection-start-line="217" selection-end-line="217" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_director.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_builder.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <folding>
+              <element signature="e#20#59#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_database.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <folding>
+              <element signature="e#0#14#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_handler.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="252">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor relative-caret-position="-37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_pickle.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="85">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <folding>
+              <element signature="e#62#99#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpreter_controller.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="377">
+            <caret line="215" column="4" lean-forward="true" selection-start-line="215" selection-start-column="4" selection-end-line="215" selection-end-column="4" />
             <folding>
               <element signature="e#0#19#0" expanded="true" />
             </folding>
@@ -645,61 +578,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data.py">
+    <entry file="file://$PROJECT_DIR$/show_graph.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/data_validator.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             <folding>
-              <element signature="e#0#9#0" expanded="true" />
+              <element signature="e#0#41#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_graph.py">
+    <entry file="file://$PROJECT_DIR$/graph.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="367">
-            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design Pattern Ass3/view_bar_graph.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="306">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pickle_file.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="85">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_types_abstract.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="357">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <folding>
+              <element signature="e#0#41#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -715,117 +614,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file_handler.py">
+    <entry file="file://$PROJECT_DIR$/file_types_abstract.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="-1168">
-            <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
-            <folding>
-              <element signature="e#0#10#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="85">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-556">
-            <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file_abstract.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor>
-            <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_concrete.py">
+    <entry file="file://$PROJECT_DIR$/../Refactoring/unit_test_suite.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="34">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_abstract.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="155">
-            <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          </first_editor>
-          <second_editor relative-caret-position="-32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OneDrive/PYTHON/Philippa Assignment for Python/pippaara_assignment_three - Copy/command_view.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_director.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret column="18" selection-start-column="18" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_builder.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_bar_builder.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-250">
-            <caret column="18" selection-start-column="18" selection-end-column="18" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_pie_builder.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interpreter_controller.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-4529">
-            <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-            <folding>
-              <element signature="e#0#19#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>

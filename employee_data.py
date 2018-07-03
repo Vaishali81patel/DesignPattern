@@ -1,6 +1,6 @@
 from data import Data
 from file_handler import FileHandler
-from database import Database
+from file_database import Database
 
 
 class EmployeeData(object):

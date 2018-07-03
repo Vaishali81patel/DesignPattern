@@ -5,10 +5,14 @@ from data_abstract import DataAbstract
 
 class Data(DataAbstract):
     """
-    Used by employee.py to return the data for a record
+    Used by employee_data.py to return the data for a record
     """
-    def unpack_data(self, record_num):
-        return self._data[record_num]
-
-    def pack_data(self):
+    def load_data(self):
         pass
+
+#   def add_data(self):
+ #       pass
+
+    def save_data(self):
+        self.new_data = []
+        return self._load_data()

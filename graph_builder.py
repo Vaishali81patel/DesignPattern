@@ -6,27 +6,37 @@ from six import add_metaclass
 
 @add_metaclass(ABCMeta)
 class GraphBuilder:
-    _labels = []
-    _sizes = []
+    _lebels = []
+    _values = []
     _plt = None
 
-    def __init__(self, data):
-        self._data = data
-
-    def get_gender(self):
-        self._labels = 'Male', 'Females'
-        males = 0
-        females = 0
-        for row in self._data:
-            if row[1] == 'M':
-                males += 1
-            else:
-                females += 1
-        self._sizes = [males, females]
+    def __init__(self):
+        self.graph = Graph()
 
     @abstractmethod
-    def setup_gender_graph(self):
+    def show_pie(self, line):
+        pass
+
+    @abstractmethod
+    def show_bar(self, line):
+        pass
+
+    @abstractmethod
+    def show_scatter(self, line):
+        pass
+
+    @abstractmethod
+    def plot_pie(data, title=""):
+        pass
+
+    @abstractmethod
+    def plot_bar(data, title=""):
+        pass
+
+    @abstractmethod
+    def plot_scatter(data, title=""):
         pass
 
     def get_graph(self):
         return self._plt
+

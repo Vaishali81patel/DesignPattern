@@ -2,8 +2,8 @@
 
 from abc import ABCMeta, abstractmethod
 from file_handler import FileHandler
-from database import Database
-from pickle_file import PickleFile
+from file_database import Database
+from file_pickle import PickleFile
 
 
 class FileTypesAbstract(metaclass=ABCMeta):

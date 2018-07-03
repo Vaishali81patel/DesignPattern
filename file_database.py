@@ -1,5 +1,5 @@
 import sqlite3
-from idata_access import IDataAccess
+from file_abstract import IDataAccess
 from data import Data
 
 

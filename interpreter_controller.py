@@ -2,7 +2,10 @@ from cmd import Cmd
 from csv import Error as CSVError
 from data_validator import DataValidator
 from console_view import ViewConsole as View
-# from employee_data import EmployeeData
+from graph_director import GraphDirector
+from graph_builder import GraphBuilder
+from show_graph import ShowGraph
+from graph import Graph
 from employee_get_data import GetEmployee
 from data import Data
 from sys import argv
@@ -13,6 +16,8 @@ class InterpreterController (Cmd):
     _input_file = ''
     _output_file = ''
     _data_list = []
+
+    #  _graph = None
     # This class is a controller class which enable interpreter (model) and
     # View (Console View) to interconnect with each other and
     # This class also defined command loop enables \
@@ -21,11 +26,13 @@ class InterpreterController (Cmd):
     # Written By: Patel
     #
     def __init__(self):
-        Cmd.__init__ (self)  # Initialize cmd interface here
+        Cmd.__init__(self)  # Initialize cmd interface here
         self.prompt = ">>> "  # Initialize prompt
-        self._vld = DataValidator ()  # Object of DataValidator, for validating data
- #       self._shw = EmployeeData ()  # Instance of EmployeeData
-        self._shw = GetEmployee () # Instace of GetEmployeeData
+        self._vld = DataValidator()  # Object of DataValidator, for validating data
+ #       self._graph = GraphDirector()
+#        self._grp = Graph()
+        self._graph = ShowGraph()
+        self._shw = GetEmployee() # Instace of GetEmployeeData
         self.intro = "WELCOME TO THE EMPLOYEE DATABASE MANAGEMENT CONSOLE \n ENTER A KEYWORD TO START. FOT HELP, ENTER \"help\"."
         # Welcome information
 
@@ -160,13 +167,11 @@ class InterpreterController (Cmd):
         #
         # Written By: Patel
         #
-        args = list (arg.lower () for arg in str (line).split ())
+        args = list (arg.lower() for arg in str (line).split())
 
         # Those commands are required single arguments
         # single_commands = ["-a"]
         # Those commands are required two arguments
-        plot_commands = ["-p", "-b", "-c"]
-
         # Show data table
         if args[0] == "-t":
             if len (self._shw.data) == 0 and len (self._shw.new_data) == 0:
@@ -179,74 +184,41 @@ class InterpreterController (Cmd):
                 View.display_data (self._shw.new_data, ind=True)
                 View.display ("\n(Input command \"save\" to save the new data)")
 
-        elif args[0] in plot_commands:
+        else:
+            View.info ("Invalid command line.\n")
+            View.help_show ()
+
+
+    def do_graph_show(self, line):
+        _graph = None
+        graph_director = GraphDirector (None)
+        plot_commands = ["-p", "-b", "-c"]
+
+        if args[0] in plot_commands:
             try:
                 if len (args) == 1:
                     raise IndexError ("Incomplete command line.")
 
                 if args[0] == "-p":
-                    self.show_pie (args[1])
+                    graph_builder = self._graph.show_pie(self._data_list)
+                    graph_director.set_builder(graph_builder)
                 if args[0] == "-b":
-                    self.show_bar (args[1])
+                    graph_builder = self._graph.show_bar(self._data_list)
+                    graph_director.set_builder (graph_builder)
                 if args[0] == "-c":
-                    self.show_scatter (args[1])
+                    graph_builder = self._graph.show_scatter(self._data_list)
+                    graph_director.set_builder (graph_builder)
 
             except IndexError as e:
                 View.error (str (e) + "\n")
-                View.help_show ()
+                View.help_show()
         else:
             View.info ("Invalid command line.\n")
             View.help_show ()
 
-    def show_pie(self, line):
-        # Draw Pies
-        try:
-            if len (self._shw.get_gender ()) == 0 or len (self._shw.get_bmi ()) == 0:
-                raise ValueError ("No data to display.")
-            # Draw gender
-            if line.upper () == Data.GENDER.name:
-                View.plot_pie (self._shw.get_gender (), "Gender Distribution")
-            # Draw BMI
-            if line.upper () == Data.BMI.name:
-                View.plot_pie (self._shw.get_bmi (), "Body Mass Index (BMI)")
-        except ValueError as e:
-            View.info (e)
-        except Exception as e:
-            View.error (e)
-
-    def show_bar(self, line):
-        # Draw Bars
-        try:
-            if len (self._shw.get_gender ()) == 0 or len (self._shw.get_gender ()) == 0:
-                raise ValueError ("No data to display.")
-            # Draw gender
-            if line.upper () == Data.GENDER.name:
-                View.plot_bar (self._shw.get_gender (), "Gender Distribution")
-            # Draw BMI
-            if line.upper () == Data.BMI.name:
-                View.plot_bar (self._shw.get_bmi (), "Body Mass Index (BMI)")
-        except ValueError as e:
-            View.info (e)
-        except Exception as e:
-            View.error (e)
-
-    # Author: Vaishali Patel
-
-    def show_scatter(self, line):
-        # Draw Line Scatter
-        try:
-            if len (self._shw.get_gender()) == 0 or len (self._shw.get_salary()) == 0:
-                raise ValueError ("No data to display.")
-            # Draw gender
-            if line.upper () == Data.GENDER.name:
-                View.plot_bar (self._shw.get_gender(), "Gender Distribution")
-            # Draw BMI
-            if line.upper () == Data.SALARY.name:
-                View.plot_bar (self._shw.get_salary(), "Salary Index (SALARY)")
-        except ValueError as e:
-            View.info (e)
-        except Exception as e:
-            View.error (e)
+            graph_director.construct()
+            _graph = graph_builder.get_graph()
+        return _graph
 
     @staticmethod
     def help_show():

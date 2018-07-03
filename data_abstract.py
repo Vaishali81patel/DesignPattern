@@ -13,12 +13,12 @@ class DataAbstract:
         self._data = data_in
 
     @abstractmethod
-    def unpack_data(self):
+    def load_data(self):
         pass;
 
     @abstractmethod
-    def pack_data(self):
+    def add_data(self):
         pass
 
-    def get_data(self):
-        return self._data
+    def save_data(self):
+        pass
